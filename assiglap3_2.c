@@ -24,18 +24,23 @@ int main()
 	{
 	printf("please enter password :");
 	scanf("%d",&password);
+	int f=0;
+	while(f=1)
+	{
 		if (password == 7788){	
-			printf("Ahmed");
+			printf("\nwelcome Ahmed\n");
 			break;
 		}else if(password == 5566){
-			printf("Amr");
+			printf("\nwelcome Amr\n");
 			break;
 		}else if (password == 1122){
-			printf("wael");
+			printf("\nwelcomewael\n");
 			break;
 		}else{
-			printf("Try again:");
+			printf("Try again:\n");
 			scanf("%d",&password);
+			f=1;
+		}
 		}
 	}
 
