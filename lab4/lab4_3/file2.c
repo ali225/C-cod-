@@ -3,10 +3,10 @@
 void printMyName(void)
 {
 	int a;
-	long b;
+	char b;
 	
 	printf("plesae enter your name : ");
-	scanf("%c",&b);
+	scanf("%s",&b);
 	
 	printf("plesae enter number of :");
 	scanf("%d",&a);
@@ -14,5 +14,5 @@ void printMyName(void)
 	
 	
 	printf("number : %d  \n",a);
-	printf("My name : %L \n",b);
+	printf("My name : %s \n",b);
 }

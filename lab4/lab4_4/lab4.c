@@ -2,6 +2,7 @@
 
 int Factorial_Recursion(int n);
 
+
 void main(void)
 {
     int num,fact;
@@ -13,15 +14,15 @@ void main(void)
 	printf("Factorial of %d = %d", num ,fact );
   
 }
+
 int Factorial_Recursion(int n)
 {
-    if (n >= 1)
+	if (n >= 1)
 	{
-        return n*Factorial_Recursion(n-1);
-    }
-	
+		return n*Factorial_Recursion(n-1);
+	}
 	else
 	{
-        return 1;
+		return 1;
 	}
 }
