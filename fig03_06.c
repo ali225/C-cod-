@@ -25,6 +25,5 @@ int main(void)
 	// termination phase 
 	average = total / 10; 		//integer division 
 	
-	printf("Class average is %d \n",average);`//display result
-	return 0;	// indicate program ended successfully 
+	printf( "Class average is %d\n", average ); // display result		// indicate program ended successfully 
 }	//end function main
