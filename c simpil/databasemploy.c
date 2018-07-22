@@ -13,7 +13,7 @@
 struct{
 	char *filename;
 	FILE *pfile;
-}global={"C:\\Users\\My\\Desktop\\embeddded\\c\\csimpil\dataemployees.txt",NULL};
+}global={"C:\\Users\\My\\Desktop\\embeddded\\c\\c simpil\\dataemployees.bin",NULL};
 
 typedef struct employee{
 	char first_name[NAME_MAX];
@@ -32,7 +32,7 @@ int main()
 	
 	Employee member;
 	
-	printf("\n%22c--------------------\n",' ');
+	printf("\n%22c---------------------------\n",' ');
 	printf("%22cWelcome to Database Program\n", ' ');
 	printf("%22c---------------------------\n\n",' ');
 	
